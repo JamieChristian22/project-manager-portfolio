@@ -1,4 +1,4 @@
-# 📊 Project Manager Portfolio (Enterprise-Grade)
+# 📊 Project Manager Portfolio 
 
 ## 👋 Overview
 This repository contains **enterprise-grade, real-world Project Management projects** demonstrating end-to-end delivery across **IT, Technical, Cloud, Cybersecurity, and Software Implementation** initiatives.
