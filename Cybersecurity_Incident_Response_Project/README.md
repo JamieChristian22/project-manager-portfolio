@@ -1,117 +1,132 @@
-# 🔐 Cybersecurity Incident Response Project
-
-Enterprise-style project simulating how a Project Manager leads coordination, governance, and executive communication during a high-impact cybersecurity incident.
-
-This project demonstrates structured incident management, cross-functional leadership, and stakeholder control under pressure.
+# 🔐 Cybersecurity Incident Response Case Study  
+## Intrusion Detection & Response (SIEM Analysis)
 
 ---
 
-## 📌 Project Overview
-
-**Scenario:**  
-A simulated enterprise security breach affecting critical systems and customer data.
-
-**Objective:**  
-Coordinate response efforts, manage stakeholders, ensure governance, and restore operational stability while maintaining executive visibility.
-
-**Project Type:**  
-Cybersecurity / Incident Management  
-IT Project Management
-
-**Methodology:**  
-Hybrid Crisis Response (Structured + Agile coordination)
-
-**Stakeholders Simulated:**  
-- Executive Leadership  
-- Security Operations  
-- IT Infrastructure  
-- Legal & Compliance  
-- Communications / PR  
-- External Security Vendors  
+## 📌 Overview
+This project simulates a real-world cybersecurity incident involving suspicious login activity, potential brute-force attacks, and abnormal outbound traffic. The objective was to detect, analyze, and respond to the incident using structured incident response methodologies and SIEM-based analysis.
 
 ---
 
-## 🎯 Business Goals
+## 🎯 Business Problem
+The organization experienced:
+- Multiple failed login attempts across user accounts  
+- Suspicious authentication patterns indicating a possible brute-force attack  
+- Increasing outbound traffic suggesting potential data exfiltration  
 
-- Contain incident rapidly  
-- Reduce business disruption  
-- Protect brand reputation  
-- Ensure regulatory compliance  
-- Improve long-term security posture  
-- Strengthen governance controls  
-
----
-
-## 📁 Artifacts Included
-
-| File | Purpose |
-|------|--------|
-| `Project_Plan.xlsx` | Incident coordination planning |
-| `Gantt_Milestones.xlsx` | Timeline of response phases |
-| `Budget_Tracker.xlsx` | Response-related cost tracking |
-| `RAID_Log.xlsx` | Risks, issues, and dependencies |
-| `Change_Log.xlsx` | Change approvals during response |
-| `RACI_Matrix.xlsx` | Ownership during crisis |
-| `KPI_Dashboard.xlsx` | Recovery performance tracking |
-| `Executive_Summary.pptx` | Leadership-facing updates |
-| `Project_Documentation.docx` | Full incident documentation |
-| `PMO_Readiness_Summary.docx` | Governance maturity assessment |
-| `Interview_Walkthrough.docx` | Explanation guide for interviews |
+**Goal:**  
+Identify the threat, analyze attacker behavior, and implement mitigation strategies to reduce security risk.
 
 ---
 
-## 📊 KPIs Tracked
-
-- Time to containment  
-- Resolution speed  
-- Executive communication cadence  
-- Risk reduction progress  
-- Control improvements  
-- Stakeholder confidence  
+## 🛠️ Tools & Technologies
+- SIEM Analysis (Log Monitoring & Event Correlation)
+- Data Visualization (Dashboard Analysis)
+- Microsoft Excel (Data Processing)
+- Cybersecurity Framework (NIST Incident Response Lifecycle)
 
 ---
 
-## 🧠 Skills Demonstrated
+## 🚨 Incident Detection (Identification Phase)
 
-- Crisis project management  
-- Executive communication under pressure  
-- Cybersecurity governance coordination  
-- Stakeholder alignment  
-- Risk management  
-- Structured documentation  
-- Decision logging and accountability  
+Key findings:
+- High volume of failed login attempts across multiple users  
+- Concentrated activity on specific accounts (possible targeting)  
+- Repeated login attempts over short intervals  
 
----
-
-## 🛠 Tools & Techniques Used
-
-- Incident response governance models  
-- RAID management  
-- Executive reporting  
-- Stakeholder mapping  
-- Excel-based tracking systems  
-- PMO frameworks  
+### Evidence
+![SIEM Analysis](2_Incident_Analysis/Failed_Logins_SIEM_Analysis.png)
 
 ---
 
-## 📌 Why This Project Matters
+## 🔍 Investigation & Analysis
 
-This project reflects how organizations:
-> Manage high-pressure security events while maintaining structure, leadership communication, and accountability.
+### 1. Brute Force Detection
+- Identified abnormal login attempt frequency  
+- Pattern consistent with brute-force or password spraying attacks  
 
-It demonstrates readiness for:
-- Technical Project Manager  
-- Security Program Manager  
-- IT Project Manager  
-- PMO / Governance roles  
+### 2. User-Based Analysis
+- Certain accounts showed significantly higher failure rates  
+- Indicates targeted credential attacks  
+
+### 3. Time-Based Patterns
+- Spikes in login attempts during short time windows  
+- Suggests automated attack scripts  
+
+### 4. Outbound Traffic Analysis
+- Gradual increase in outbound data transfer  
+- Potential indicator of **data exfiltration activity**  
 
 ---
 
-## 📬 Author
+## 🛑 Containment & Mitigation
 
-**Jamie Christian**  
-🔗 LinkedIn: https://www.linkedin.com/in/jamiechristian2/
+Actions taken:
+- Locked affected user accounts  
+- Implemented login attempt thresholds  
+- Enabled multi-factor authentication (MFA)  
+- Blocked suspicious IP addresses  
+- Strengthened authentication policies  
 
 ---
 
-⭐ If this project helped demonstrate real-world PM skills, feel free to star the repository.
+## 🧹 Eradication & Recovery
+
+- Reset compromised credentials  
+- Removed unauthorized access paths  
+- Conducted system integrity checks  
+- Restored normal authentication patterns  
+
+---
+
+## 📊 Impact Assessment
+
+- Reduced risk of unauthorized system access  
+- Prevented escalation into potential data breach  
+- Improved monitoring visibility  
+- Strengthened security controls  
+
+---
+
+## 📈 Key Insights
+
+- Failed login patterns are strong indicators of brute-force attacks  
+- Time-based spikes reveal automated attack behavior  
+- Monitoring outbound traffic is critical for detecting exfiltration  
+- SIEM dashboards enable real-time threat detection and response  
+
+---
+
+## 🔁 Lessons Learned
+
+- Implement proactive monitoring and alerting  
+- Enforce strong password and MFA policies  
+- Set thresholds for abnormal login activity  
+- Continuously review authentication logs  
+
+---
+
+## 📁 Project Structure
+Cybersecurity_Incident_Response_Project/
+├── 1_Executive_Summary/
+├── 2_Incident_Analysis/
+├── 3_Project_Management/
+├── 4_Financials/
+├── 5_KPIs_Reporting/
+├── 6_Documentation/
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Incident Detection & Analysis  
+- SIEM Investigation Techniques  
+- Threat Identification (Brute Force, Exfiltration)  
+- Cybersecurity Risk Mitigation  
+- Data Analysis & Visualization  
+- Incident Response Lifecycle Execution  
+
+---
+
+## 📌 Conclusion
+This project demonstrates my ability to analyze cybersecurity incidents, identify attack patterns, and apply structured incident response methodologies to mitigate threats and improve organizational security posture.
