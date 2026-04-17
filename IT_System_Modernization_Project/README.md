@@ -127,4 +127,4 @@ IT_System_Modernization_Project/
 ---
 
 ## 📌 Conclusion
-This project showcases my ability to modernize legacy IT systems by aligning business objectiv
+This project showcases my ability to modernize legacy IT systems by aligning business objectives with technical solutions, improving system performance, and enabling scalable, data-driven operations.
