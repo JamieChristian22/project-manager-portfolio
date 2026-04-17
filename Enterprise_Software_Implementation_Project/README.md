@@ -1,113 +1,126 @@
-# 🧩 Enterprise Software Implementation Project
-
-Enterprise-style project demonstrating how a Project Manager leads the delivery of a large-scale business system implementation across multiple departments.
-
----
-
-## 📌 Project Overview
-
-**Objective:**  
-Deliver a new enterprise software platform to improve operational efficiency, reporting, and cross-functional collaboration.
-
-**Project Type:**  
-Business Systems Implementation  
-Technical / IT Project Management
-
-**Methodology:**  
-Hybrid (Structured planning + phased rollout)
-
-**Stakeholders Simulated:**  
-- Executive Leadership  
-- Business Operations  
-- IT Delivery  
-- Finance  
-- End Users  
-- External Software Vendor  
+# 🏢 Enterprise Software Implementation Project  
+## CRM Implementation & Business Process Optimization
 
 ---
 
-## 🎯 Business Goals
-
-- Improve business process efficiency  
-- Enable better reporting and visibility  
-- Increase user adoption  
-- Support scalability  
-- Strengthen governance  
-- Deliver measurable ROI  
+## 📌 Overview
+This project demonstrates the end-to-end implementation of an enterprise software solution (CRM system) designed to improve sales operations, pipeline visibility, and business decision-making. It highlights my ability to bridge business requirements with technical implementation while managing stakeholders, processes, and performance metrics.
 
 ---
 
-## 📁 Artifacts Included
+## 🎯 Business Problem
+The organization faced several operational challenges:
+- Limited visibility into sales pipeline and deal progression  
+- Inefficient reporting and manual tracking processes  
+- Lack of centralized system for managing customer opportunities  
 
-| File | Purpose |
-|------|--------|
-| `Project_Plan.xlsx` | Scope, timeline, delivery plan |
-| `Gantt_Milestones.xlsx` | Implementation schedule |
-| `Budget_Tracker.xlsx` | Cost management |
-| `RAID_Log.xlsx` | Risk & dependency tracking |
-| `Change_Log.xlsx` | Scope and change management |
-| `RACI_Matrix.xlsx` | Role clarity |
-| `KPI_Dashboard.xlsx` | Performance measurement |
-| `Executive_Summary.pptx` | Leadership-ready update |
-| `Project_Documentation.docx` | Full implementation documentation |
-| `PMO_Readiness_Summary.docx` | Governance evaluation |
-| `Interview_Walkthrough.docx` | Interview explanation guide |
+**Goal:**  
+Implement an enterprise CRM system to streamline operations, improve reporting accuracy, and enhance decision-making.
 
 ---
 
-## 📊 KPIs Tracked
+## 🏗️ Solution Approach
 
-- Adoption rate  
-- On-time milestone delivery  
-- Budget adherence  
-- Change volume  
-- User readiness  
-- Stakeholder satisfaction  
+The implementation followed a structured enterprise software deployment methodology:
 
----
+- Business process analysis and requirements gathering  
+- CRM system configuration and customization  
+- Agile-based implementation and tracking (Jira)  
+- Dashboard and reporting development for business insights  
 
-## 🧠 Skills Demonstrated
-
-- Cross-functional project leadership  
-- Business-technology alignment  
-- Change management  
-- Stakeholder communication  
-- Governance frameworks  
-- Delivery accountability  
-- Documentation discipline  
+Enterprise software implementations require alignment between system capabilities and business processes to ensure successful adoption and value delivery.
 
 ---
 
-## 🛠 Tools & Techniques Used
+## ⚙️ Implementation Phases
 
-- Excel-based project tracking  
-- Gantt scheduling  
-- Governance templates  
-- KPI scorecards  
-- Executive reporting  
-- PMO best practices  
+### 1. Requirements & Planning
+- Gathered and documented business requirements  
+- Created project plan, Gantt timeline, and RACI matrix  
+- Identified risks and mitigation strategies (RAID log)  
 
 ---
 
-## 📌 Why This Project Matters
+### 2. System Implementation (CRM)
+- Configured opportunity tracking workflows  
+- Built sales pipeline structure  
+- Implemented reporting tools within the CRM  
 
-This project reflects how real organizations:
-> Implement large systems while balancing timelines, stakeholder needs, and operational impact.
-
-It is relevant to roles such as:
-- Project Manager  
-- Technical Project Manager  
-- Business Systems Manager  
-- Program Coordinator  
-- PMO Analyst  
-
----
-
-## 📬 Author
-
-**Jamie Christian**  
-🔗 LinkedIn: https://www.linkedin.com/in/jamiechristian2/
+### Key Features:
+- Opportunity management system  
+- Sales pipeline tracking  
+- Report builder for analytics  
+- Centralized customer data management  
 
 ---
 
-⭐ If this project reflects the quality you expect from a professional PM, feel free to star the repo.
+### 3. Agile Execution & Tracking
+- Managed project using Jira boards  
+- Tracked tasks, progress, and deliverables  
+- Facilitated iterative delivery approach  
+
+---
+
+### 4. Data Analytics & Reporting
+
+Developed dashboards to provide business insights:
+
+- Sales pipeline funnel analysis  
+- KPI performance tracking  
+- Revenue opportunity visibility  
+- Deal progression monitoring  
+
+---
+
+## 📊 Key Outcomes
+
+- Improved visibility into sales pipeline performance  
+- Reduced manual reporting efforts  
+- Enhanced decision-making through real-time dashboards  
+- Increased efficiency in tracking customer opportunities  
+- Established scalable CRM framework for future growth  
+
+---
+
+## 📁 Project Structure
+Enterprise_Software_Implementation_Project/
+├── 1_Executive_Overview/
+├── 2_Project_Management/
+├── 3_System_Implementation/
+├── 4_Data_Analytics_Reporting/
+├── 5_Financials/
+├── 6_Documentation/
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Salesforce CRM (Opportunity Management & Reporting)  
+- Jira (Agile Project Management)  
+- Microsoft Excel (Planning & KPI Analysis)  
+- Data Visualization (Dashboards & Reports)  
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Business Analysis & Requirements Gathering  
+- CRM Implementation (Salesforce)  
+- Agile Project Management (Scrum / Jira)  
+- Data Analysis & Dashboard Development  
+- Stakeholder Management & Communication  
+- Process Optimization & System Integration  
+
+---
+
+## 🔁 Lessons Learned
+
+- Strong alignment between business processes and system design is critical  
+- Data visibility drives better decision-making  
+- Agile methodologies improve delivery efficiency  
+- Stakeholder communication is key to successful adoption  
+
+---
+
+## 📌 Conclusion
+This project showcases my ability to lead enterprise software implementations by aligning business
