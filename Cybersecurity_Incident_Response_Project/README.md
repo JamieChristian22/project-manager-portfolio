@@ -1,112 +1,96 @@
 # 🔐 Cybersecurity Incident Response Case Study  
-## Intrusion Detection & Response (SIEM Analysis)
+### Intrusion Detection & Response (SIEM Analysis)
 
 ---
 
-## 📌 Overview
-This project simulates a real-world cybersecurity incident involving suspicious login activity, potential brute-force attacks, and abnormal outbound traffic. The objective was to detect, analyze, and respond to the incident using structured incident response methodologies and SIEM-based analysis.
+## 🚀 Project Summary
+Led a simulated cybersecurity incident response project involving brute-force attack detection, abnormal authentication patterns, and potential data exfiltration. Applied structured NIST Incident Response lifecycle to identify threats, coordinate mitigation, and restore system integrity.
 
 ---
 
-## 🎯 Business Problem
-The organization experienced:
-- Multiple failed login attempts across user accounts  
-- Suspicious authentication patterns indicating a possible brute-force attack  
-- Increasing outbound traffic suggesting potential data exfiltration  
-
-**Goal:**  
-Identify the threat, analyze attacker behavior, and implement mitigation strategies to reduce security risk.
+## 🎯 Business Objective
+- Detect and respond to unauthorized access attempts  
+- Prevent potential data breach and system compromise  
+- Strengthen authentication and monitoring controls  
 
 ---
 
-## 🛠️ Tools & Technologies
-- SIEM Analysis (Log Monitoring & Event Correlation)
-- Data Visualization (Dashboard Analysis)
-- Microsoft Excel (Data Processing)
-- Cybersecurity Framework (NIST Incident Response Lifecycle)
+## 📊 Business Impact
+✔ Reduced risk of unauthorized access across multiple user accounts  
+✔ Prevented escalation into potential data exfiltration incident  
+✔ Improved security monitoring visibility through SIEM analysis  
+✔ Strengthened authentication controls (MFA, login thresholds)  
 
 ---
 
-## 🚨 Incident Detection (Identification Phase)
-
-Key findings:
-- High volume of failed login attempts across multiple users  
-- Concentrated activity on specific accounts (possible targeting)  
-- Repeated login attempts over short intervals  
-
-### Evidence
-![SIEM Analysis](2_Incident_Analysis/Failed_Logins_SIEM_Analysis.png)
+## 🛠 Tools & Methodologies
+- SIEM Analysis (log monitoring, event correlation)  
+- Microsoft Excel (data processing & trend analysis)  
+- Dashboard Visualization (security insights)  
+- Framework: NIST Incident Response Lifecycle  
 
 ---
 
-## 🔍 Investigation & Analysis
+## 🚨 Key Findings
 
-### 1. Brute Force Detection
-- Identified abnormal login attempt frequency  
-- Pattern consistent with brute-force or password spraying attacks  
+### 🔍 Threat Detection
+- High volume of failed login attempts across multiple accounts  
+- Repeated authentication attempts in short intervals  
+- Patterns consistent with brute-force / password spraying attacks  
 
-### 2. User-Based Analysis
-- Certain accounts showed significantly higher failure rates  
-- Indicates targeted credential attacks  
+### 👤 Targeted Account Activity
+- Specific users experienced significantly higher failure rates  
+- Indicates focused credential attack strategy  
 
-### 3. Time-Based Patterns
-- Spikes in login attempts during short time windows  
-- Suggests automated attack scripts  
+### ⏱ Time-Based Patterns
+- Sharp spikes in login attempts  
+- Suggests use of automated attack scripts  
 
-### 4. Outbound Traffic Analysis
+### 🌐 Outbound Traffic Analysis
 - Gradual increase in outbound data transfer  
-- Potential indicator of **data exfiltration activity**  
+- Potential indicator of data exfiltration attempts  
 
 ---
 
-## 🛑 Containment & Mitigation
+## 🛑 Actions Taken (Execution Phase)
 
-Actions taken:
-- Locked affected user accounts  
+- Locked compromised user accounts  
 - Implemented login attempt thresholds  
-- Enabled multi-factor authentication (MFA)  
+- Enabled Multi-Factor Authentication (MFA)  
 - Blocked suspicious IP addresses  
 - Strengthened authentication policies  
 
 ---
 
-## 🧹 Eradication & Recovery
+## 🔄 Recovery & Resolution
 
 - Reset compromised credentials  
-- Removed unauthorized access paths  
-- Conducted system integrity checks  
-- Restored normal authentication patterns  
-
----
-
-## 📊 Impact Assessment
-
-- Reduced risk of unauthorized system access  
-- Prevented escalation into potential data breach  
-- Improved monitoring visibility  
-- Strengthened security controls  
+- Removed unauthorized access points  
+- Conducted system integrity validation  
+- Restored normal authentication behavior  
 
 ---
 
 ## 📈 Key Insights
 
-- Failed login patterns are strong indicators of brute-force attacks  
-- Time-based spikes reveal automated attack behavior  
-- Monitoring outbound traffic is critical for detecting exfiltration  
-- SIEM dashboards enable real-time threat detection and response  
+- Failed login spikes = early indicator of attack activity  
+- Time-based clustering reveals automation  
+- Outbound traffic monitoring is critical for breach detection  
+- SIEM dashboards enable real-time decision-making  
 
 ---
 
 ## 🔁 Lessons Learned
 
-- Implement proactive monitoring and alerting  
-- Enforce strong password and MFA policies  
-- Set thresholds for abnormal login activity  
-- Continuously review authentication logs  
+- Implement proactive alerting for abnormal login behavior  
+- Enforce strong password + MFA policies  
+- Define thresholds for anomaly detection  
+- Continuously monitor authentication logs  
 
 ---
 
 ## 📁 Project Structure
+
 Cybersecurity_Incident_Response_Project/
 ├── 1_Executive_Summary/
 ├── 2_Incident_Analysis/
@@ -117,16 +101,16 @@ Cybersecurity_Incident_Response_Project/
 
 ---
 
-## 🚀 Skills Demonstrated
+## 💼 Skills Demonstrated
 
-- Incident Detection & Analysis  
-- SIEM Investigation Techniques  
-- Threat Identification (Brute Force, Exfiltration)  
-- Cybersecurity Risk Mitigation  
-- Data Analysis & Visualization  
-- Incident Response Lifecycle Execution  
+- Project Execution (End-to-End Incident Response)  
+- Stakeholder-Oriented Risk Mitigation  
+- Data-Driven Decision Making  
+- SIEM Analysis & Threat Detection  
+- Process Improvement & Security Controls  
+- Cross-Functional Problem Solving  
 
 ---
 
-## 📌 Conclusion
-This project demonstrates my ability to analyze cybersecurity incidents, identify attack patterns, and apply structured incident response methodologies to mitigate threats and improve organizational security posture.
+## 📌 Final Outcome
+Successfully identified and mitigated a simulated cybersecurity threat using structured incident response practices, improving overall system security and reducing risk exposure.
