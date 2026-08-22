@@ -1,0 +1,15 @@
+# Implementation Checklist
+- [x] Create VPC and public/private subnet design
+- [x] Configure route tables and security boundaries
+- [x] Define IAM roles and access model
+- [x] Deploy EC2 launch configuration/template
+- [x] Configure Application Load Balancer and health checks
+- [x] Configure Auto Scaling min/desired/max capacity
+- [x] Provision RDS target database
+- [x] Create S3 storage and lifecycle/backup policy
+- [x] Configure CloudWatch dashboard and alarms
+- [x] Configure backup/recovery points
+- [x] Apply project/environment/owner/cost-center tags
+- [x] Run configuration and connectivity validation
+- [x] Peer review security rules
+- [x] Capture evidence index
