@@ -1,0 +1,10 @@
+ID,Type,Description,Probability,Impact,Score,Owner,Response,Status
+R-01,Risk,Data sync exceeds cutover window,3,5,15,Migration Lead,Pre-stage data and rehearse delta sync,Closed
+R-02,Risk,Security group misconfiguration blocks traffic,3,4,12,Cloud Engineer,Peer review and scripted validation,Closed
+R-03,Risk,Unexpected AWS spend,3,3,9,PM,Tags budgets right-sizing weekly review,Closed
+R-04,Risk,Application incompatibility on target environment,2,5,10,App Owner,Pilot migration and rollback test,Closed
+R-05,Risk,Insufficient operational readiness,3,4,12,Ops Lead,Runbook training and shadow support,Closed
+I-01,Issue,Pilot health check failed due to path mismatch,,,4,Cloud Engineer,Corrected ALB health-check path and retested,Resolved
+I-02,Issue,UAT login timeout observed,,,3,App Owner,Adjusted connection pool and repeated load test,Resolved
+A-01,Assumption,Maintenance window remains approved,,,2,PM,Confirm at T-7 and T-1 days,Validated
+D-01,Dependency,DNS change requires infrastructure administrator,,,4,PM,Book admin for cutover bridge,Completed
