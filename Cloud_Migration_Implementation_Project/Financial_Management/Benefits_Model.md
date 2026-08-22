@@ -1,0 +1,2 @@
+# Benefits Realization Model
+Scenario benefits are tracked rather than presented as real employer savings. Expected value comes from avoided hardware refresh, reduced manual monitoring effort, improved resilience, faster capacity changes, and better cost transparency. Operations owns the 30- and 90-day benefits reviews and compares availability, incident volume, scaling events, support effort, and monthly cloud spend against the baseline.
