@@ -1,0 +1,7 @@
+id,requirement,owner,acceptance,mandatory
+REQ-01,Triage,Identity lead,Incident scope and uncertainty are documented; suspected events are not labeled confirmed without support,yes
+REQ-02,Evidence preservation,Identity lead,"Every collected item has timestamp, provenance and integrity reference",yes
+REQ-03,Containment,Identity lead,No unexplained active sessions remain in the scoped review; business impact is recorded,yes
+REQ-04,Recovery validation,Identity lead,Authorized access works; suspended access remains blocked; service checks pass,yes
+REQ-05,Monitoring,Identity lead,New suspicious events are triaged and unresolved high-impact items block closure,yes
+REQ-06,Closure,Identity lead,Incident commander accepts residual risks and each follow-up has an accountable owner,yes

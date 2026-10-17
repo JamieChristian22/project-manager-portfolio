@@ -1,0 +1,7 @@
+id,requirement_id,task,owner,duration_days,predecessors,status,evidence,due_day
+T-01,REQ-01,Submittal approval,Construction PM,2,,Complete,SIM-EV-01,2
+T-02,REQ-02,Factory release,Electrical contractor,3,T-01,Complete,SIM-EV-02,5
+T-03,REQ-03,Delivery,Electrical contractor,4,T-01,In progress,,6
+T-04,REQ-04,Installation inspection,Electrical contractor,2,T-02;T-03,Not started,,8
+T-05,REQ-05,Energization,Construction PM,1,T-04,Not started,,9
+T-06,REQ-06,Commissioning,Construction PM,2,T-05,Not started,,11

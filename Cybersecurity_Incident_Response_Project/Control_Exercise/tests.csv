@@ -1,0 +1,7 @@
+id,requirement_id,task_id,procedure,expected_result,observed_result,result,evidence
+TEST-01,REQ-01,T-01,"Compare alert timestamps, affected identities and corroborating logs",Incident scope and uncertainty are documented; suspected events are not labeled confirmed without support,Simulated reviewer found expected evidence,Pass,SIM-EV-01
+TEST-02,REQ-02,T-02,"Record evidence identifier, source, collector and hash","Every collected item has timestamp, provenance and integrity reference",Simulated reviewer found expected evidence,Pass,SIM-EV-02
+TEST-03,REQ-03,T-03,Review token/session revocation and scoped containment results,No unexplained active sessions remain in the scoped review; business impact is recorded,Not yet evaluated,Not run,
+TEST-04,REQ-04,T-04,Validate recovered identities against approved access and service checks,Authorized access works; suspended access remains blocked; service checks pass,Not yet evaluated,Not run,
+TEST-05,REQ-05,T-05,Review the agreed monitoring window and newly observed indicators,New suspicious events are triaged and unresolved high-impact items block closure,Not yet evaluated,Not run,
+TEST-06,REQ-06,T-06,Reconcile response actions and transfer remediation ownership,Incident commander accepts residual risks and each follow-up has an accountable owner,Not yet evaluated,Not run,

@@ -1,0 +1,2 @@
+id,issue_id,recommendation,alternative,approver,status,decision_day,rationale
+DEC-01,ISS-01,Expedite only after vendor-confirmed shipping slippage,Temporary power plus revised commissioning sequence,Owner representative,Proposed,,Preserve inspection hold points and approve incremental cost before committing

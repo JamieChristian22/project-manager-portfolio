@@ -1,0 +1,2 @@
+id,issue_id,recommendation,alternative,approver,status,decision_day,rationale
+DEC-01,ISS-01,Revoke sessions and isolate affected identities in controlled waves,Broad account disablement,Incident commander,Proposed,,Security lead owns technical containment; business owner approves service-impact tradeoffs

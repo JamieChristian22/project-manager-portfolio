@@ -1,0 +1,7 @@
+id,requirement,owner,acceptance,mandatory
+REQ-01,Submittal approval,Electrical contractor,Selected gear matches approved specification and unresolved review comments equal zero,yes
+REQ-02,Factory release,Electrical contractor,Written release/ship confirmation exists and remaining float is calculated,yes
+REQ-03,Delivery,Electrical contractor,Received equipment matches purchase scope; damage exceptions have disposition,yes
+REQ-04,Installation inspection,Electrical contractor,Required inspection evidence is accepted; unresolved blocking deficiencies equal zero,yes
+REQ-05,Energization,Electrical contractor,"Qualified personnel, safety clearance and approved energization sequence are recorded",yes
+REQ-06,Commissioning,Electrical contractor,Functional checks and owner training have accepted results; open exceptions have owners,yes

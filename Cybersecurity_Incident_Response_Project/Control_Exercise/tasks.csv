@@ -1,0 +1,7 @@
+id,requirement_id,task,owner,duration_days,predecessors,status,evidence,due_day
+T-01,REQ-01,Triage,Incident coordinator,2,,Complete,SIM-EV-01,2
+T-02,REQ-02,Evidence preservation,Identity lead,3,T-01,Complete,SIM-EV-02,5
+T-03,REQ-03,Containment,Identity lead,4,T-01,In progress,,6
+T-04,REQ-04,Recovery validation,Identity lead,2,T-02;T-03,Not started,,8
+T-05,REQ-05,Monitoring,Incident coordinator,1,T-04,Not started,,9
+T-06,REQ-06,Closure,Incident coordinator,2,T-05,Not started,,11

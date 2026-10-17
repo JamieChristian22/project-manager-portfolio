@@ -1,0 +1,2 @@
+id,description,task_id,owner,severity,status,opened_day,due_day,decision_id,closure_evidence
+ISS-01,Electrical gear delivery threatens energization,T-03,Electrical contractor,High,Open,6,8,DEC-01,

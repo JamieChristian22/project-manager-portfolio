@@ -1,0 +1,7 @@
+id,requirement_id,task_id,procedure,expected_result,observed_result,result,evidence
+TEST-01,REQ-01,T-01,Trace equipment submittal to approved drawing revision,Selected gear matches approved specification and unresolved review comments equal zero,Simulated reviewer found expected evidence,Pass,SIM-EV-01
+TEST-02,REQ-02,T-02,Obtain factory status and verify shipping milestone against required-on-site date,Written release/ship confirmation exists and remaining float is calculated,Simulated reviewer found expected evidence,Pass,SIM-EV-02
+TEST-03,REQ-03,T-03,Check receipt against packing list and damage inspection,Received equipment matches purchase scope; damage exceptions have disposition,Not yet evaluated,Not run,
+TEST-04,REQ-04,T-04,Inspect installation hold points before energization,Required inspection evidence is accepted; unresolved blocking deficiencies equal zero,Not yet evaluated,Not run,
+TEST-05,REQ-05,T-05,Review authorized energization procedure and responsible personnel,"Qualified personnel, safety clearance and approved energization sequence are recorded",Not yet evaluated,Not run,
+TEST-06,REQ-06,T-06,Trace commissioning prerequisites to completion evidence,Functional checks and owner training have accepted results; open exceptions have owners,Not yet evaluated,Not run,
