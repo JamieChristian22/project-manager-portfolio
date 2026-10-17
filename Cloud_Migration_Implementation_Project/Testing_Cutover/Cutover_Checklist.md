@@ -1,0 +1,16 @@
+# Production Cutover Checklist
+- [x] Change approved
+- [x] Stakeholders/bridge participants confirmed
+- [x] Source and target backups verified
+- [x] Target health green
+- [x] Final data sync procedure validated
+- [x] DNS/traffic administrator present
+- [x] User maintenance notice sent
+- [x] Rollback criteria reviewed
+- [x] Final delta sync completed
+- [x] Data validation passed
+- [x] Smoke tests passed
+- [x] Business critical-path test passed
+- [x] Monitoring remained green for 60 minutes
+- [x] Go-live declared
+- [x] Hypercare ownership activated

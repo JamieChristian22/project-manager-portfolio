@@ -1,0 +1,3 @@
+id,issue_id,task_id,owner,due_day,status,next_action,closure_evidence
+ACT-01,ISS-01,T-03,Restore lead,8,Open,Complete restore rehearsal and attach evidence,
+ACT-02,ISS-01,T-04,Cloud PM,9,Open,Obtain decision from Operations owner after evidence review,

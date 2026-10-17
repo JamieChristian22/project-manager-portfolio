@@ -1,0 +1,7 @@
+id,requirement_id,task_id,procedure,expected_result,observed_result,result,evidence
+TEST-01,REQ-01,T-01,Compare approved application inventory to architecture; flag missing dependencies,"Every scoped application has an owner, dependency and migration disposition",Simulated reviewer found expected evidence,Pass,SIM-EV-01
+TEST-02,REQ-02,T-02,"Review target subnet, identity and logging checklist",Required access paths and logs are documented; public access exceptions have an owner,Simulated reviewer found expected evidence,Pass,SIM-EV-02
+TEST-03,REQ-03,T-03,Time a restore rehearsal from the designated recovery point,Restore completes within the 60-minute exercise target and critical data validates,Not yet evaluated,Not run,
+TEST-04,REQ-04,T-04,"Compare source IDs, target IDs and approved exclusions",Source count equals loaded plus approved exclusions plus unresolved rejects; critical unresolved rejects equal zero,Not yet evaluated,Not run,
+TEST-05,REQ-05,T-05,Walk through traffic reversal and data-write freeze with the technical lead,"Rollback owner, traffic reversal, write handling and verification are specified",Not yet evaluated,Not run,
+TEST-06,REQ-06,T-06,Have operations locate the runbook and route a sample incident,"Named support owner accepts escalation, monitoring and recovery responsibilities",Not yet evaluated,Not run,

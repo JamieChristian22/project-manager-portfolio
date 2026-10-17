@@ -1,0 +1,2 @@
+# Lessons Learned
+1. Pilot migrations expose configuration defects cheaply; keep a formal pilot exit gate. 2. Pre-staging bulk data protects the cutover window. 3. Operational teams should participate before go-live, not only at handoff. 4. Every migration task needs an explicit validation and rollback step. 5. Cost tagging belongs in the foundation phase. 6. A single executive status format makes risk and decision escalation faster. 7. Define measurable acceptance criteria before build begins.

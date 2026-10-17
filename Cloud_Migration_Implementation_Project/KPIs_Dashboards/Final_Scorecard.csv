@@ -1,0 +1,9 @@
+KPI,Target,Final_Result,Status
+Migration completion,100%,100%,Green
+Schedule variance,<=5%,2.1%,Green
+Budget variance,<=5%,-2.4%,Green
+Critical Sev-1 cutover defects,0,0,Green
+Critical test pass rate,100%,100%,Green
+Post-stabilization availability,>=99.9%,99.95%,Green
+Restore validation,100%,100%,Green
+High risks unresolved at go-live,0,0,Green

@@ -1,0 +1,4 @@
+CR_ID,Request,Reason,Impact,Decision,Approver
+CR-001,Add RDS Multi-AZ,Improve database resilience,+$2500 scenario cost and 2 days design effort,Approved,Sponsor
+CR-002,Add multi-region active-active,Improve DR,High cost and 3-week schedule impact,Deferred,Sponsor
+CR-003,Extend hypercare from 2 to 3 business days,Pilot support findings,+1 day operations allocation,Approved,PM

@@ -1,0 +1,2 @@
+id,issue_id,recommendation,alternative,approver,status,decision_day,rationale
+DEC-01,ISS-01,Staged restore and delta synchronization,Full migration retry,Operations owner,Proposed,,Retain rollback capability until reconciliation and restore checks pass
