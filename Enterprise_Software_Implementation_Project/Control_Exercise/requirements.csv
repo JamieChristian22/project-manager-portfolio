@@ -1,0 +1,7 @@
+id,requirement,owner,acceptance,mandatory
+REQ-01,Mapping approval,Data migration lead,"Every scoped field has transformation, owner and rejection handling",yes
+REQ-02,Trial load,Data migration lead,Valid rows load once; invalid and duplicate rows appear in an exception register,yes
+REQ-03,Exception review,Data migration lead,No unexplained source rows; all exclusions have business-owner approval,yes
+REQ-04,UAT,Data migration lead,Critical create/update/report journeys pass and unauthorized access is denied,yes
+REQ-05,Cutover,Data migration lead,"Cutover sequence, watermark and rollback conditions are accepted",yes
+REQ-06,Adoption review,Data migration lead,Adoption denominator is explicit; inactive eligible users have a follow-up owner,yes

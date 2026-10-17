@@ -1,0 +1,7 @@
+id,requirement_id,task_id,procedure,expected_result,observed_result,result,evidence
+TEST-01,REQ-01,T-01,"Map legacy IDs, target objects and mandatory fields","Every scoped field has transformation, owner and rejection handling",Simulated reviewer found expected evidence,Pass,SIM-EV-01
+TEST-02,REQ-02,T-02,"Load a synthetic sample with valid, invalid and duplicate records",Valid rows load once; invalid and duplicate rows appear in an exception register,Simulated reviewer found expected evidence,Pass,SIM-EV-02
+TEST-03,REQ-03,T-03,"Reconcile loaded, excluded and rejected records to source",No unexplained source rows; all exclusions have business-owner approval,Not yet evaluated,Not run,
+TEST-04,REQ-04,T-04,Execute sales workflow with representative roles,Critical create/update/report journeys pass and unauthorized access is denied,Not yet evaluated,Not run,
+TEST-05,REQ-05,T-05,"Review final delta, freeze window and recovery decision","Cutover sequence, watermark and rollback conditions are accepted",Not yet evaluated,Not run,
+TEST-06,REQ-06,T-06,Compare active users to eligible roster for the same window,Adoption denominator is explicit; inactive eligible users have a follow-up owner,Not yet evaluated,Not run,

@@ -1,0 +1,2 @@
+id,issue_id,recommendation,alternative,approver,status,decision_day,rationale
+DEC-01,ISS-01,Quarantine duplicate records and rerun the approved mapping,Load all records and remediate after launch,Sales operations owner,Proposed,,Business owner must approve exclusions; preserve source-to-target identifiers

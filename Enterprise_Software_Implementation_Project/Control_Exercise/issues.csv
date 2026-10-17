@@ -1,0 +1,2 @@
+id,description,task_id,owner,severity,status,opened_day,due_day,decision_id,closure_evidence
+ISS-01,Duplicate external identifiers block migration reconciliation,T-03,Data migration lead,High,Open,6,8,DEC-01,
