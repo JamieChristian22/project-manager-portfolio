@@ -1,0 +1,2 @@
+id,issue_id,recommendation,alternative,approver,status,decision_day,rationale
+DEC-01,ISS-01,Add an atomic booking constraint and repeat concurrency tests,Manual booking lock during limited pilot,Scheduling operations owner,Proposed,,Privacy/access and safety-impact checks remain release gates

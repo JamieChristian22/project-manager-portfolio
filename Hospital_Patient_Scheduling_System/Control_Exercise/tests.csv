@@ -1,0 +1,7 @@
+id,requirement_id,task_id,procedure,expected_result,observed_result,result,evidence
+TEST-01,REQ-01,T-01,Walk the booking workflow with scheduling and clinic representatives,"Normal, urgent, cancellation and downtime paths each have an owner",Simulated reviewer found expected evidence,Pass,SIM-EV-01
+TEST-02,REQ-02,T-02,Attempt unavailable provider and room combinations,Invalid combinations are rejected and no partial booking is retained,Simulated reviewer found expected evidence,Pass,SIM-EV-02
+TEST-03,REQ-03,T-03,Submit two simultaneous requests for the same provider and room,Exactly one booking succeeds; second request receives a controlled conflict,Not yet evaluated,Not run,
+TEST-04,REQ-04,T-04,Attempt cross-department access using a restricted role,Unauthorized records are not returned and the attempt is auditable,Not yet evaluated,Not run,
+TEST-05,REQ-05,T-05,Reconcile the pilot appointment list after reschedules and cancellations,No duplicate active allocations or orphan slots remain,Not yet evaluated,Not run,
+TEST-06,REQ-06,T-06,Review downtime and support procedures with operations,"Operational owner accepts recovery, exception queue and support escalation",Not yet evaluated,Not run,

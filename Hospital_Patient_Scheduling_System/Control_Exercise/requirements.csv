@@ -1,0 +1,7 @@
+id,requirement,owner,acceptance,mandatory
+REQ-01,Workflow approval,Application lead,"Normal, urgent, cancellation and downtime paths each have an owner",yes
+REQ-02,Booking rules,Application lead,Invalid combinations are rejected and no partial booking is retained,yes
+REQ-03,Concurrency test,Application lead,Exactly one booking succeeds; second request receives a controlled conflict,yes
+REQ-04,Access validation,Application lead,Unauthorized records are not returned and the attempt is auditable,yes
+REQ-05,Pilot,Application lead,No duplicate active allocations or orphan slots remain,yes
+REQ-06,Operational acceptance,Application lead,"Operational owner accepts recovery, exception queue and support escalation",yes

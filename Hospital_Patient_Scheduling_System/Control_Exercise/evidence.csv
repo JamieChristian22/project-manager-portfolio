@@ -1,0 +1,3 @@
+id,description,type,reviewer,recorded_day
+SIM-EV-01,Fictional exercise record: Workflow approval reviewed; used only to test tracker behavior,Simulated record,Scheduling operations owner,2
+SIM-EV-02,Fictional exercise record: Booking rules reviewed; used only to test tracker behavior,Simulated record,Scheduling operations owner,3
