@@ -1,0 +1,3 @@
+id,issue_id,task_id,owner,due_day,status,next_action,closure_evidence
+ACT-01,ISS-01,T-03,Integration lead,8,Open,Complete retry and reconciliation review and attach evidence,
+ACT-02,ISS-01,T-04,Modernization PM,9,Open,Obtain decision from Application service owner after evidence review,

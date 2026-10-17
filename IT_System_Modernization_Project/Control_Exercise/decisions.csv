@@ -1,0 +1,2 @@
+id,issue_id,recommendation,alternative,approver,status,decision_day,rationale
+DEC-01,ISS-01,Use an idempotent retry queue with exception monitoring,Keep the legacy interface active for one additional cycle,Application service owner,Proposed,,Decommission only after a complete business cycle reconciles and rollback retention is accepted

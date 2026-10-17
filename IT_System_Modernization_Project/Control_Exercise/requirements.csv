@@ -1,0 +1,7 @@
+id,requirement,owner,acceptance,mandatory
+REQ-01,Dependency inventory,Integration lead,"Every in-scope integration has a source, destination, owner and retirement decision",yes
+REQ-02,Interface contract,Integration lead,"Required fields, error handling and idempotency rules are agreed",yes
+REQ-03,Retry test,Integration lead,One business transaction results after retries; failures remain visible,yes
+REQ-04,Parallel run,Integration lead,Source IDs and financial/control totals reconcile with no unexplained critical differences,yes
+REQ-05,Cutover,Integration lead,Restore path and responsibility are accepted before migration authority is granted,yes
+REQ-06,Retirement approval,Integration lead,"No live dependency remains; retention, access removal and disposal approvals are recorded",yes

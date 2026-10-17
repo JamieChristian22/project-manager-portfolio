@@ -1,0 +1,7 @@
+id,requirement_id,task_id,procedure,expected_result,observed_result,result,evidence
+TEST-01,REQ-01,T-01,"Compare applications, interfaces and service owners","Every in-scope integration has a source, destination, owner and retirement decision",Simulated reviewer found expected evidence,Pass,SIM-EV-01
+TEST-02,REQ-02,T-02,"Inspect versioned payload, timeout and retry contract","Required fields, error handling and idempotency rules are agreed",Simulated reviewer found expected evidence,Pass,SIM-EV-02
+TEST-03,REQ-03,T-03,Send duplicate message and force a transient failure,One business transaction results after retries; failures remain visible,Not yet evaluated,Not run,
+TEST-04,REQ-04,T-04,Reconcile one complete business cycle across old and new systems,Source IDs and financial/control totals reconcile with no unexplained critical differences,Not yet evaluated,Not run,
+TEST-05,REQ-05,T-05,Rehearse rollback and verify operating coverage,Restore path and responsibility are accepted before migration authority is granted,Not yet evaluated,Not run,
+TEST-06,REQ-06,T-06,Review retention and dependency clearance before retirement,"No live dependency remains; retention, access removal and disposal approvals are recorded",Not yet evaluated,Not run,
