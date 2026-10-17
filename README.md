@@ -1,638 +1,869 @@
-# 📊 Project Manager Portfolio | Jamie Christian II
+> **Portfolio simulation.** Business outcomes, approvals, dates, budgets, and tabletop records are fictional unless a specific artifact establishes otherwise. The new control exercise is separate from the original project snapshot.
 
-![Project Management](https://img.shields.io/badge/Project%20Management-Portfolio-2563EB)
-![PMO](https://img.shields.io/badge/PMO-Project%20Controls-7C3AED)
-![Construction](https://img.shields.io/badge/Construction-Project%20Management-F59E0B)
-![Technical PM](https://img.shields.io/badge/Technical%20PM-IT%20%26%20Cloud-0EA5E9)
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-Project%20Controls-217346)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboards-F2C811)
-![SQL](https://img.shields.io/badge/SQL-Analytics-4479A1)
-![Status](https://img.shields.io/badge/Portfolio-Job%20Ready-22C55E)
+[Original-source reconciliation and metric definitions](../verification/SOURCE_RECONCILIATION.md) explain which results are reproducible and which remain scenario assertions.
 
-> 🚀 **Hands-on Project Management Portfolio** demonstrating project planning, execution, scheduling, budgeting, risk management, stakeholder communication, project controls, executive reporting, implementation, construction PM, and data-driven decision-making.
+**Start here:** [Evidence index](Evidence_Index.md) · [Delivery and recovery case](Delivery_Case.md) · [Control exercise](Control_Exercise/README.md) · [Portfolio](../README.md)
 
----
+# 💻 IT System Modernization Project
 
-# 👋 About This Portfolio
+## Legacy Application, Infrastructure & Operations Transformation
 
-Welcome to my **Project Manager Portfolio**.
-
-This repository contains hands-on project simulations designed to demonstrate how I approach **real-world project delivery from initiation through closeout**.
-
-Rather than focusing only on project management theory, these projects demonstrate how I build and use the artifacts required to actually manage work:
-
-**🎯 Scope → 📅 Schedule → 💰 Budget → 👥 Stakeholders → ⚠️ Risk → 📊 KPIs → 🔄 Changes → 🚧 Execution → 📈 Reporting → 🏁 Closeout**
-
-The portfolio combines my background in **business, technology, analytics, cloud/IT, and project management** to demonstrate a practical, data-driven approach to project delivery.
+![Project Management](https://img.shields.io/badge/Project-Management-blue)
+![IT Modernization](https://img.shields.io/badge/Program-IT%20Modernization-purple)
+![Hybrid Agile](https://img.shields.io/badge/Delivery-Hybrid%20Agile-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Portfolio](https://img.shields.io/badge/Portfolio-Project-green)
 
 ---
 
-# 🎯 Target Project Management Roles
+## 📌 Executive Summary
 
-This portfolio is designed to demonstrate transferable capabilities for:
+This portfolio project demonstrates the end-to-end management of an **enterprise IT system modernization initiative** involving a legacy business application, aging on-premises infrastructure, manual reporting processes, fragile integrations, limited monitoring, and growing technical debt.
 
-* 📊 **Project Manager**
-* 📋 **Project Coordinator**
-* 🧑‍💼 **Associate / Junior Project Manager**
-* 🏢 **PMO Analyst**
-* 📈 **Project Analyst**
-* 🔧 **Implementation Project Manager**
-* ⚙️ **Implementation Coordinator**
-* 💻 **Technical Project Manager**
-* ☁️ **IT / Cloud Project Manager**
-* 🏗️ **Construction Project Manager**
-* 👷 **Assistant Project Manager**
-* 📊 **Project Controls Analyst / Coordinator**
-* 🔄 **Program Coordinator**
+The modernization program transformed the environment through a **hybrid replatform, selective refactor, and legacy retirement strategy**.
+
+As the simulated **IT Modernization Project Manager**, I managed the initiative across current-state assessment, requirements, modernization strategy, target-state architecture, project governance, Agile delivery, data migration, integration remediation, testing, organizational change, production cutover, hypercare, legacy decommissioning, financial management, KPI tracking, benefits realization, and project closure.
+
+> **Portfolio Disclosure:** This is a simulated professional portfolio project. Organizations, budgets, environments, stakeholders, data volumes, schedules, and performance results are scenario-based and are presented to demonstrate practical project management capabilities.
 
 ---
 
-# 🧠 Project Management Framework
+## 🎯 Project Snapshot
 
-Every project in this portfolio follows a structured management lifecycle.
+| Attribute | Details |
+|---|---|
+| **Project** | Enterprise IT System Modernization |
+| **Role** | Project Manager / IT Modernization Lead |
+| **Program Type** | Legacy Application & Infrastructure Modernization |
+| **Delivery Model** | Hybrid Agile |
+| **Duration** | 24 Weeks |
+| **Scenario Budget** | $425,000 |
+| **Users in Scope** | 240 |
+| **Data Scope** | 2.4M Business Records |
+| **Integrations** | 6 |
+| **Status** | Completed |
+| **Primary Goal** | Reduce technical debt, improve performance, strengthen resilience, automate reporting, and retire obsolete infrastructure |
+
+---
+
+## 🏢 Business Problem
+
+The organization relied on an aging line-of-business application supported by legacy on-premises infrastructure.
+
+The environment created increasing operational and technical risk:
+
+- Slow application response times
+- Aging operating system and database components
+- Limited scalability
+- Single points of failure
+- Spreadsheet-based reporting
+- Manual batch processing
+- Fragile point-to-point integrations
+- Limited centralized monitoring and logging
+- High infrastructure maintenance costs
+- Weak disaster recovery readiness
+- Manual deployment processes
+- Increasing end-of-life technology risk
+
+Leadership approved a modernization initiative to improve system **performance, reliability, maintainability, security, scalability, and operational efficiency**.
+
+---
+
+## 🎯 Project Objectives
+
+1. Reduce legacy technical debt
+2. Improve application performance
+3. Increase system availability
+4. Modernize reporting and analytics
+5. Reduce manual operational processes
+6. Improve monitoring and logging
+7. Strengthen role-based access and security
+8. Modernize legacy integrations
+9. Migrate business data with validated reconciliation
+10. Improve backup and recovery capabilities
+11. Establish scalable target-state architecture
+12. Train users and support teams
+13. Retire obsolete legacy infrastructure
+
+---
+
+## 🧱 Current-State Environment
+
+*See the [verified artifact index](Evidence_Index.md) for actual filenames and downloads.*
+
+### Supporting Components
+
+- Local authentication groups
+- Manual deployment processes
+- Limited application logging
+- Manual backup processes
+- Point-to-point integrations
+- Spreadsheet-based operational reporting
+
+### Key Current-State Risks
+
+- Single points of failure
+- End-of-life technology exposure
+- Slow application performance
+- Limited observability
+- Fragile integrations
+- Manual recovery procedures
+- Inconsistent release processes
+- Increasing support costs
+
+---
+
+## 🔍 Current-State Assessment
+
+The assessment covered:
+
+- Application inventory
+- Infrastructure inventory
+- Database components
+- Integration inventory
+- Scheduled jobs
+- Reporting processes
+- Authentication
+- Monitoring
+- Backup and recovery
+- Business dependencies
+- Technical debt
+- Data quality
+- Support incidents
+- End-of-life technology
+- Operational ownership
+
+---
+
+## 🧠 Modernization Strategy
+
+Six modernization approaches were evaluated.
+
+| Strategy | Cost | Risk | Timeline | Technical Debt Reduction | Scalability | Decision |
+|---|---|---|---|---|---|---|
+| **Retain** | Low | High | Short | Low | Low | Rejected |
+| **Rehost** | Medium | Medium | Short | Low | Medium | Partial |
+| **Replatform** | Medium | Medium | Medium | Medium-High | High | Selected |
+| **Refactor** | High | High | Long | High | High | Selective |
+| **Replace** | High | High | Long | High | High | Not Selected |
+| **Retire** | Low | Low | Medium | High | N/A | Selected |
+
+### Selected Strategy
+
+### Replatform + Selective Refactor + Retire
+
+**Replatform** was used for infrastructure and data components where modernization could provide significant operational improvement without requiring a complete application rewrite.
+
+**Selective Refactor** was applied to high-value application, reporting, and integration components where redesign reduced technical debt or operational complexity.
+
+**Retire** was applied to obsolete servers, scheduled jobs, integrations, and processes no longer required after modernization.
+
+The selected approach balanced:
+
+- Cost
+- Delivery risk
+- Timeline
+- Technical debt
+- Scalability
+- Security
+- Business disruption
+
+---
+
+## 🌐 Target-State Architecture
 
 ```text
-💡 Business Need
-       │
-       ▼
-🎯 Project Initiation
-       │
-       ▼
-📋 Scope Definition
-       │
-       ▼
-📅 Planning & Scheduling
-       │
-       ▼
-💰 Budget & Resource Planning
-       │
-       ▼
-⚠️ Risk Assessment
-       │
-       ▼
-🚀 Project Execution
-       │
-       ▼
-📊 Monitoring & Control
-       │
-       ▼
-🔄 Change Management
-       │
-       ▼
-📈 Executive Reporting
-       │
-       ▼
-🏁 Closeout & Lessons Learned
+Business Users
+      │
+      ▼
+Modern Web Application
+      │
+      ▼
+Load-Balanced Application Services
+      │
+      ▼
+API / Services Layer
+      │
+      ▼
+Modern Relational Database
+      │
+      ▼
+Centralized Reporting & Analytics
+```
+
+### Supporting Services
+
+- Centralized IAM / RBAC
+- Monitoring and alerting
+- Application logging
+- Automated backups
+- Document/object storage
+- Modernized integration endpoints
+- Recovery procedures
+- Controlled deployment processes
+
+The architecture is intentionally platform-agnostic because this portfolio project focuses on managing an IT modernization program rather than claiming a production deployment on a specific cloud platform.
+
+---
+
+## 📋 Requirements Management
+
+Requirements were structured across:
+
+**Business Requirements → Functional Requirements → Non-Functional Requirements → User Stories → Test Cases → Acceptance**
+
+### Key Non-Functional Requirements
+
+- Application response time ≤2 seconds
+- Availability ≥99.9%
+- Centralized monitoring and logging
+- Role-based access control
+- Auditable administrative activity
+- Secure data transport
+- Automated backup
+- Tested recovery procedures
+- Scalable application architecture
+- Maintainable deployment process
+
+---
+
+## 🔗 Requirements Traceability
+
+| Business Requirement | Requirement | User Story | Validation | Result |
+|---|---|---|---|---|
+| Improve performance | NFR-001 | US-001 | Performance Test | Pass |
+| Improve availability | NFR-002 | US-001 | Recovery Test | Pass |
+| Modernize reporting | FR-002 | US-002 | SIT | Pass |
+| Improve monitoring | NFR-003 | US-003 | Operations Validation | Pass |
+| Strengthen access | NFR-005 | US-004 | Security Test | Pass |
+| Migrate data | BR-009 | US-005 | Reconciliation | Pass |
+
+---
+
+## 🗓️ 24-Week Project Roadmap
+
+| Phase | Weeks |
+|---|---:|
+| Initiation | 1-2 |
+| Current-State Assessment | 2-4 |
+| Requirements | 4-6 |
+| Modernization Strategy | 6-8 |
+| Target Architecture | 6-8 |
+| Governance & Planning | 7-9 |
+| Foundation / Build | 9-13 |
+| Data & Integration | 10-15 |
+| SIT / Regression | 15-17 |
+| Performance & Security Validation | 17 |
+| UAT | 18 |
+| Training & Readiness | 17-19 |
+| Migration Waves | 19-21 |
+| Production Cutover | 21 |
+| Hypercare | 22 |
+| Legacy Decommissioning | 23 |
+| Closure | 24 |
+
+---
+
+## 🌊 Migration Wave Strategy
+
+### Wave 0 — Foundation
+
+- Target environment
+- Identity and access
+- Monitoring and logging
+- Backup and recovery
+- Deployment controls
+
+### Wave 1 — Application
+
+- Core application services
+- Configuration
+- Feature parity
+- Functional validation
+
+### Wave 2 — Data
+
+- Extract
+- Profile
+- Cleanse
+- Transform
+- Load
+- Reconcile
+
+### Wave 3 — Integrations
+
+- Interface remediation
+- Endpoint changes
+- Security
+- Error handling
+- Integration validation
+
+### Wave 4 — Reporting
+
+- Centralized reporting
+- KPI dashboards
+- Report reconciliation
+- Business validation
+
+### Wave 5 — Production Cutover
+
+- Final data synchronization
+- Integration cutover
+- Production deployment
+- Smoke testing
+- Business validation
+- Hypercare activation
+
+---
+
+## 🗃️ Data Migration
+
+The scenario included migration of approximately **2.4 million business records**.
+
+```text
+Extract
+   ↓
+Profile
+   ↓
+Cleanse
+   ↓
+Map
+   ↓
+Transform
+   ↓
+Trial Load
+   ↓
+Validate
+   ↓
+Production Load
+   ↓
+Reconcile
+   ↓
+Business Sign-Off
+```
+
+### Data Quality Targets
+
+| Measure | Target |
+|---|---:|
+| Required-field completeness | ≥99% |
+| Referential integrity | 100% |
+| Critical reconciliation variance | 0 |
+| Duplicate rate | <0.5% |
+| Business sign-off | 100% |
+
+### Production Reconciliation
+
+- Approved records: **2,400,000**
+- Loaded records: **2,400,000**
+- Critical reconciliation variance: **0**
+- Critical relationship errors: **0**
+- Business validation: **Completed**
+
+---
+
+## 🔌 Integration Modernization
+
+Six legacy integrations were included:
+
+1. Finance Export
+2. Identity / User Synchronization
+3. Document Exchange
+4. Notification Service
+5. Reporting Extract
+6. Vendor Data Import
+
+Each integration was evaluated for:
+
+- Business owner
+- Interface type
+- Frequency
+- Security
+- Failure behavior
+- Retry handling
+- Monitoring
+- Business criticality
+- Test coverage
+- Cutover requirements
+- Rollback requirements
+
+All six reached production-ready status before final cutover.
+
+---
+
+## 🔄 Agile Delivery
+
+The project used Agile delivery within the larger modernization governance framework.
+
+### Sprint 1 — Foundation & Access
+Identity, access controls, monitoring, and environment foundation.
+
+### Sprint 2 — Critical Business Workflows
+Core application workflows and functional parity.
+
+### Sprint 3 — Reporting & Automation
+Modernized reporting and batch-processing automation.
+
+### Sprint 4 — Integration Remediation
+Legacy interface modernization and integration validation.
+
+### Sprint 5 — Security, Monitoring & UAT Remediation
+Final security controls, operational monitoring, and UAT defect remediation.
+
+Each sprint included:
+
+**Planning → Build → Testing → Demonstration → Acceptance → Retrospective**
+
+---
+
+## ⚠️ Project Governance
+
+Governance artifacts included:
+
+- Work Breakdown Structure
+- Integrated project schedule
+- RACI matrix
+- Stakeholder register
+- Communications plan
+- RAID log
+- Risk register
+- Issue log
+- Decision log
+- Change request log
+- Requirements traceability
+- Executive status reporting
+- Go/No-Go governance
+
+---
+
+## 🧪 Testing & Validation
+
+### System Integration Testing
+
+Validated:
+
+- Application workflows
+- Database connectivity
+- Six integrations
+- Batch processing
+- Reporting
+- User access
+- Audit logging
+- Error handling
+
+### Regression Testing
+
+Critical legacy functionality was retested after modernization to confirm equivalent or approved target-state behavior.
+
+### Performance Testing
+
+| Metric | Scenario Result |
+|---|---:|
+| Average Response Time | **1.7 sec** |
+| 95th Percentile Response | **2.4 sec** |
+| Concurrent User Test | **240 users passed** |
+| Report Generation | **8 min** |
+| Batch Processing | **Within target window** |
+
+### Security Validation
+
+Validated:
+
+- Role-based access
+- Privileged access
+- Authentication
+- Audit logging
+- Encryption expectations
+- Secrets handling
+- Backup protection
+- Monitoring
+
+**Critical security findings at go-live: 0**
+
+---
+
+## 👥 User Acceptance Testing
+
+UAT included **24 representative business users and 6 managers**.
+
+Users validated:
+
+- Critical workflows
+- Search
+- Reporting
+- Finance exports
+- Migrated data
+- Error handling
+- Access controls
+
+### Scenario UAT Results
+
+| Measure | Result |
+|---|---:|
+| UAT Pass Rate | **97%** |
+| Open Sev 1 Defects | **0** |
+| Open Sev 2 Defects | **0** |
+| Business Approval | **Completed** |
+
+---
+
+## 🎓 Change Management & Training
+
+The modernization affected:
+
+- Application workflows
+- User interface
+- Reporting
+- Access management
+- Support procedures
+- Automated processes
+- Legacy system usage
+
+Change management included:
+
+- Sponsor communications
+- Department champions
+- Demonstrations
+- Role-based training
+- Quick-reference guides
+- Office hours
+- Hypercare
+- Adoption monitoring
+
+### Training Completion
+
+**Scenario Result: 98%**
+
+---
+
+## 🚦 Go-Live Readiness
+
+Production deployment required:
+
+- Requirements approval
+- SIT completion
+- Regression completion
+- UAT approval
+- Performance validation
+- Security validation
+- Data migration readiness
+- Integration readiness
+- Training completion
+- Support readiness
+- Rollback readiness
+- Executive approval
+
+---
+
+## 🚀 Production Cutover
+
+```text
+Change Freeze
+     ↓
+Final Backup
+     ↓
+Final Data Sync
+     ↓
+Data Reconciliation
+     ↓
+Integration Switch
+     ↓
+Target Environment Activation
+     ↓
+Smoke Testing
+     ↓
+Security Validation
+     ↓
+Reporting Validation
+     ↓
+Business Approval
+     ↓
+Hypercare
 ```
 
 ---
 
-# 🗂️ Portfolio Areas
+## 🔙 Rollback Strategy
 
-## 🏗️ Construction Project Management
+Rollback would be initiated for:
 
-![Construction PM](https://img.shields.io/badge/Construction-PM-F59E0B)
-![CPM](https://img.shields.io/badge/Scheduling-CPM-2563EB)
-![EVM](https://img.shields.io/badge/Controls-Earned%20Value-7C3AED)
+- Sev 1 production defect
+- Critical data corruption
+- Critical integration failure
+- Core business process outage
+- Material reconciliation failure
+- Critical security-control failure
 
-My construction project management work demonstrates management of a complex commercial construction project through:
+The rollback runbook documented:
 
-* 🏗️ Preconstruction
-* 📅 CPM scheduling
-* 🔗 Predecessor logic
-* 🚨 Critical-path analysis
-* 💰 Cost forecasting
-* 📉 Earned Value Management
-* 📦 Procurement
-* ❓ RFIs
-* 📑 Submittals
-* 🔄 PCOs / Change Orders
-* ⚠️ Risk management
-* 🦺 Safety
-* ✅ QA/QC
-* 🤝 Owner / A/E / trade coordination
-* 🧪 Commissioning
-* 📝 Punch lists
-* 🏁 Closeout and turnover
-
-### 🏢 Corporate Operations Center
-
-**75,000 SF Ground-Up Corporate Facility | $20.6M Baseline Budget**
-
-This portfolio simulation demonstrates end-to-end construction project controls and PM decision-making.
-
-Key management areas include:
-
-**Schedule + Cost + Procurement + Design Coordination + Changes + Risk + Safety + Quality + Stakeholders + Closeout**
-
-📂 `Corporate_Construction_PM_Portfolio_Project/`
+1. Deployment stop
+2. Evidence and log preservation
+3. Integration reversal
+4. Legacy service restoration
+5. Stakeholder communication
+6. System validation
+7. Revised Go/No-Go review
 
 ---
 
-# 💻 IT & Technical Project Management
+## 🩺 Hypercare
 
-![IT PM](https://img.shields.io/badge/IT-Project%20Management-0EA5E9)
-![Cloud](https://img.shields.io/badge/Cloud-Technical%20Projects-4285F4)
-![Implementation](https://img.shields.io/badge/Implementation-Delivery-22C55E)
+A **10-business-day hypercare period** followed production deployment.
 
-Technical project management work focuses on coordinating projects involving:
+The team monitored:
 
-* ☁️ Cloud environments
-* 💻 IT systems
-* 🔐 Security
-* 🌐 Infrastructure
-* ⚙️ Technical implementation
-* 👥 Cross-functional technical teams
-* 📊 Operational reporting
-* 🔄 Change management
-* 🚀 Deployment
-* 📈 Adoption and stabilization
+- Application performance
+- Production incidents
+- Data quality
+- Integration stability
+- Reports
+- Access
+- User support
+- Adoption
 
-The objective is to demonstrate the ability to translate technical work into **scope, milestones, risks, dependencies, decisions, and stakeholder communication**.
+### Hypercare Exit Criteria
 
----
-
-# 📊 PMO & Project Controls
-
-![PMO](https://img.shields.io/badge/PMO-Governance-7C3AED)
-![Dashboard](https://img.shields.io/badge/Executive-Dashboards-2563EB)
-![KPI](https://img.shields.io/badge/KPI-Reporting-22C55E)
-
-A major focus of this portfolio is **project controls**.
-
-Project managers need reliable information to make decisions.
-
-My project-control work includes:
-
-### 📅 Schedule Controls
-
-* Work Breakdown Structures
-* Milestones
-* Dependencies
-* Critical path
-* Gantt schedules
-* Baseline vs actual
-* Forecast dates
-* Schedule variance
-* Look-ahead planning
-
-### 💰 Cost Controls
-
-* Baseline budgets
-* Revised budgets
-* Actual costs
-* Commitments
-* Estimate to Complete
-* Forecast at Completion
-* Cost variance
-* Contingency
-* Change exposure
-
-### ⚠️ RAID Management
-
-**R — Risks**
-**A — Assumptions**
-**I — Issues**
-**D — Dependencies**
-
-Controls include:
-
-* Probability
-* Impact
-* Risk scoring
-* Mitigation
-* Ownership
-* Due dates
-* Escalation
-* Resolution
+- No Sev 1 defects
+- Sev 2 issues stabilized
+- Performance targets achieved
+- Integrations stable
+- Business acceptance received
+- Operations accepted ownership
 
 ---
 
-# 📈 Earned Value & Performance Management
+## 🧹 Legacy System Decommissioning
 
-![SPI](https://img.shields.io/badge/SPI-Schedule%20Performance-2563EB)
-![CPI](https://img.shields.io/badge/CPI-Cost%20Performance-22C55E)
-![EAC](https://img.shields.io/badge/EAC-Forecasting-7C3AED)
+The modernization project was not considered complete at go-live.
 
-Where appropriate, portfolio projects incorporate Earned Value concepts.
+After stabilization:
 
-| Metric      | Meaning                       |
-| ----------- | ----------------------------- |
-| 📅 **PV**   | Planned Value                 |
-| ✅ **EV**    | Earned Value                  |
-| 💰 **AC**   | Actual Cost                   |
-| 📈 **SPI**  | Schedule Performance Index    |
-| 💵 **CPI**  | Cost Performance Index        |
-| 📉 **SV**   | Schedule Variance             |
-| 💲 **CV**   | Cost Variance                 |
-| 🔮 **EAC**  | Estimate at Completion        |
-| 🎯 **VAC**  | Variance at Completion        |
-| 📊 **TCPI** | To-Complete Performance Index |
+1. Legacy system moved to read-only
+2. Archive requirements validated
+3. Production integrations disconnected
+4. User write access removed
+5. Obsolete scheduled jobs retired
+6. Backups archived
+7. Configuration documentation retained
+8. CMDB / asset records updated
+9. Unnecessary infrastructure and licenses identified for retirement
+10. Formal decommission approval obtained
 
-These metrics help turn project data into **forward-looking management decisions**.
+This ensured the modernization initiative actually reduced technical debt rather than simply introducing another environment.
 
 ---
 
-# 💰 Budget Management
+## 💰 Financial Management
 
-My portfolio demonstrates the complete project-cost management flow:
+### Scenario Budget
+
+| Category | Baseline |
+|---|---:|
+| Project Management | $52,000 |
+| Business Analysis | $34,000 |
+| Architecture / Engineering | $86,000 |
+| Data Migration | $52,000 |
+| Integration Remediation | $48,000 |
+| QA / Testing | $42,000 |
+| Security / DR | $26,000 |
+| Change / Training | $24,000 |
+| Deployment / Hypercare | $18,000 |
+| Contingency | $43,000 |
+| **Total** | **$425,000** |
+
+### Scenario Actual Cost
+
+**$414,800**
+
+### Favorable Variance
+
+**$10,200 / 2.4%**
+
+The project finished within the established ±5% budget tolerance.
+
+---
+
+## 💵 Benefits & ROI Model
+
+| Benefit | Annual Scenario Value |
+|---|---:|
+| Infrastructure Savings | $145,000 |
+| Reduced Manual Processing | $130,000 |
+| Reduced Incident / Support Effort | $110,000 |
+| Reporting Productivity | $70,000 |
+| Release / Operations Efficiency | $50,000 |
+| **Total Modeled Annual Benefit** | **$505,000** |
+
+### First-Year Gross ROI
 
 ```text
-💰 Original Budget
-        │
-        ▼
-🔄 Approved Changes
-        │
-        ▼
-💵 Revised Budget
-        │
-        ▼
-📑 Commitments
-        │
-        ▼
-💳 Actual Costs
-        │
-        ▼
-🔮 Estimate to Complete
-        │
-        ▼
-📊 Forecast at Completion
-        │
-        ▼
-📈 Variance Analysis
+($505,000 - $425,000) / $425,000
+= 18.8%
 ```
 
-The objective is not simply to record spending.
-
-The objective is to answer:
-
-> **Where is the project financially today, where is it heading, and what management action is required?**
+> Financial values are simulated portfolio assumptions and are not employer financial results.
 
 ---
 
-# ⚠️ Risk & Issue Management
+## 📊 KPI Scorecard
 
-Projects rarely execute exactly according to plan.
+| KPI | Baseline | Target | Scenario Result |
+|---|---:|---:|---:|
+| Application Response Time | 4.8 sec | ≤2.0 sec | **1.7 sec** |
+| Availability | 97.5% | ≥99.9% | **99.9%** |
+| Report Generation | 45 min | ≤10 min | **8 min** |
+| Manual Processing | Baseline | -60% | **-70%** |
+| Critical Incidents | Baseline | -50% | **-60%** |
+| Infrastructure Operating Cost | Baseline | -20% | **-25%** |
+| UAT Pass Rate | N/A | ≥95% | **97%** |
+| Training Completion | N/A | ≥95% | **98%** |
+| 30-Day Adoption | N/A | ≥90% | **94%** |
+| Sev 1 Defects at Launch | N/A | 0 | **0** |
 
-My project-management approach emphasizes early identification and ownership.
-
-```text
-Identify
-   ↓
-Analyze
-   ↓
-Prioritize
-   ↓
-Assign Owner
-   ↓
-Mitigate
-   ↓
-Monitor
-   ↓
-Escalate
-   ↓
-Close
-```
-
-Risks are evaluated based on:
-
-**Probability × Impact = Risk Exposure**
-
-High-impact items are tied to:
-
-* Owner
-* Mitigation
-* Trigger
-* Due date
-* Escalation path
-* Current status
+> KPI results are simulated portfolio outcomes.
 
 ---
 
-# 🤝 Stakeholder Management
+## 📈 Benefits Realization
 
-Successful project delivery requires more than managing tasks.
+The modernization scenario achieved:
 
-Portfolio projects demonstrate communication across:
-
-* 👔 Executives
-* 🧑‍💼 Sponsors
-* 👥 Business stakeholders
-* 💻 Technical teams
-* 🏗️ Contractors
-* 📐 Designers
-* 📦 Vendors
-* ⚙️ Operations teams
-* 👤 End users
-
-Stakeholders are evaluated based on:
-
-**Influence + Interest + Impact + Communication Needs**
+- **65% improvement in application response time**
+- **99.9% system availability**
+- **82% reduction in report-generation time**
+- **70% reduction in manual processing**
+- **60% reduction in critical incidents**
+- **25% reduction in infrastructure operating costs**
+- **97% UAT pass rate**
+- **98% training completion**
+- **94% 30-day adoption**
+- **0 Sev 1 defects at launch**
+- **Successful retirement of obsolete legacy components**
 
 ---
 
-# 🗣️ Communication & Governance
+## 📂 Repository Structure
 
-Project communication artifacts include:
-
-* 📊 Executive status reports
-* 📝 Meeting minutes
-* ✅ Action registers
-* 🚦 Project health reporting
-* 📅 Milestone reviews
-* ⚠️ Risk escalations
-* 🔄 Change decisions
-* 📈 KPI dashboards
-* 🧠 Decision registers
-* 🏁 Lessons learned
-
-The objective is to ensure that:
-
-> **The right person receives the right information at the right time to make the right decision.**
+*See the [verified artifact index](Evidence_Index.md) for actual filenames and downloads.*
 
 ---
 
-# 🔄 Change Management
+## 🛠️ Tools & Methods Demonstrated
 
-Changes are managed through a controlled workflow.
+### Project Management
 
-```text
-Change Identified
-       │
-       ▼
-Impact Analysis
-       │
-       ├── 📅 Schedule
-       ├── 💰 Cost
-       ├── 👥 Resources
-       ├── ⚠️ Risk
-       └── 🎯 Scope
-       │
-       ▼
-Approval Decision
-       │
-       ▼
-Implementation
-       │
-       ▼
-Project Baseline Updated
-       │
-       ▼
-Results Monitored
-```
+- Hybrid Agile
+- Scrum
+- Jira
+- WBS
+- RACI
+- RAID
+- Risk Management
+- Change Control
+- Stakeholder Management
+- Budget Management
+- Schedule Management
 
-This prevents uncontrolled scope growth and ensures decisions remain documented.
+### IT Modernization
 
----
+- Legacy System Assessment
+- Application Inventory
+- Infrastructure Inventory
+- Technical Debt Analysis
+- Dependency Mapping
+- Modernization Strategy
+- Migration Wave Planning
+- Legacy Decommissioning
 
-# 🚦 Project Health Framework
+### Business Analysis
 
-Projects can be communicated quickly through a simple executive health model.
+- Business Requirements
+- Functional Requirements
+- Non-Functional Requirements
+- User Stories
+- Acceptance Criteria
+- Requirements Traceability
 
-| Status       | Meaning                                                 |
-| ------------ | ------------------------------------------------------- |
-| 🟢 **GREEN** | Project operating within acceptable tolerances          |
-| 🟠 **AMBER** | Management attention / recovery action required         |
-| 🔴 **RED**   | Major project objective threatened; escalation required |
+### Technical Delivery
 
-Health can be evaluated across:
+- Target-State Architecture
+- Data Migration
+- Data Reconciliation
+- Integration Remediation
+- Monitoring & Logging
+- Backup / Disaster Recovery
+- RBAC
+- Security Validation
 
-* 📅 Schedule
-* 💰 Budget
-* ⚠️ Risk
-* 👥 Resources
-* 🎯 Scope
-* 📦 Procurement
-* ✅ Quality
-* 🤝 Stakeholders
+### Quality Assurance
 
----
+- SIT
+- Regression Testing
+- Performance Testing
+- Security Validation
+- UAT
+- Defect Management
+- Go-Live Readiness
 
-# 📊 Executive Reporting
+### Change & Operations
 
-A project dashboard should answer five questions quickly:
-
-### 1️⃣ Where are we?
-
-Current project status.
-
-### 2️⃣ Are we on plan?
-
-Schedule and budget variance.
-
-### 3️⃣ What could hurt us?
-
-Risks, issues, dependencies, and constraints.
-
-### 4️⃣ What decisions are needed?
-
-Executive or stakeholder actions.
-
-### 5️⃣ What happens next?
-
-Upcoming milestones and priorities.
+- Change Management
+- Training
+- User Readiness
+- Adoption Tracking
+- Cutover
+- Rollback
+- Hypercare
+- Operational Handoff
+- Legacy Decommissioning
 
 ---
 
-# 🧰 Tools & Technologies
+## 💡 Key Lessons Learned
 
-## 📊 Project & Business Tools
-
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-Advanced-217346)
-![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811)
-![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-4479A1)
-![GitHub](https://img.shields.io/badge/GitHub-Portfolio-181717)
-
-* Microsoft Excel
-* Power BI
-* SQL
-* GitHub
-* Project dashboards
-* Gantt schedules
-* RAID logs
-* KPI scorecards
-* Budget trackers
-* Risk registers
-* Action logs
-
-## ☁️ Technical Knowledge
-
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4)
-![Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Project%20Awareness-DC2626)
-
-Technical familiarity supports project work involving:
-
-* Cloud platforms
-* IT infrastructure
-* Cybersecurity
-* Identity and access
-* Networking
-* Data
-* Business intelligence
-* Technical operations
+1. Modernization should begin with a complete understanding of application and infrastructure dependencies.
+2. Replatforming is not always enough to eliminate technical debt; selective refactoring may be necessary.
+3. Trial data migrations significantly reduce production cutover risk.
+4. Integration readiness should be validated early rather than immediately before go-live.
+5. Performance and security validation should occur before final business acceptance.
+6. Change management is as important as technical delivery.
+7. Rollback criteria must be defined before production deployment.
+8. A modernization initiative is not complete until obsolete legacy technology is formally retired.
 
 ---
 
-# 🧩 Core PM Competencies
+## 🎯 Skills Demonstrated
 
-| Area                | Capabilities                                         |
-| ------------------- | ---------------------------------------------------- |
-| 🎯 **Scope**        | Requirements, WBS, deliverables, acceptance criteria |
-| 📅 **Schedule**     | Milestones, dependencies, Gantt, CPM, forecasting    |
-| 💰 **Cost**         | Budgets, forecasts, variance, contingency            |
-| ⚠️ **Risk**         | RAID, scoring, mitigation, escalation                |
-| 🤝 **Stakeholders** | Communication, engagement, governance                |
-| 👥 **Teams**        | Cross-functional coordination and accountability     |
-| 🔄 **Change**       | Impact analysis, approvals, implementation           |
-| 📊 **Reporting**    | KPIs, dashboards, executive status                   |
-| 🧠 **Decisions**    | Options, impact, recommendation, ownership           |
-| 🏁 **Closeout**     | Acceptance, turnover, lessons learned                |
+`IT Project Management` • `Technical Project Coordination` • `IT Modernization` • `Legacy System Transformation` • `Application Modernization` • `Infrastructure Modernization` • `Agile` • `Scrum` • `Requirements Management` • `Stakeholder Management` • `Risk Management` • `Data Migration` • `Integration Management` • `SIT` • `UAT` • `Performance Testing` • `Change Management` • `Cutover Planning` • `Hypercare` • `Legacy Decommissioning` • `Budget Management` • `KPI Tracking` • `Benefits Realization`
 
 ---
 
-# 🏆 What Makes This Portfolio Different
+## 🎯 Target Roles
 
-This repository is designed around one principle:
+This project demonstrates skills relevant to:
 
-> **Don't just say you understand project management. Show the artifacts, controls, decisions, and outcomes.**
-
-Each project is built to answer questions such as:
-
-* What was the objective?
-* What was the scope?
-* How was the work planned?
-* What was the budget?
-* What could go wrong?
-* Who owned each risk?
-* What dependencies existed?
-* How was progress measured?
-* What happened when the project deviated?
-* How were stakeholders informed?
-* What decisions were required?
-* How was the project closed?
+- IT Project Coordinator
+- Technical Project Coordinator
+- IT Modernization Project Coordinator
+- Infrastructure Project Coordinator
+- Business Systems Project Coordinator
+- Associate Project Manager
+- PMO Analyst
+- Junior IT Project Manager
+- Technical Project Manager
 
 ---
 
-# 💼 Recruiter Quick View
+## 📌 Portfolio Note
 
-If you're reviewing this portfolio for a project-management opportunity, the strongest evidence of my capabilities includes:
+This project demonstrates practical project-management knowledge through a realistic simulated enterprise modernization scenario.
 
-### 🏗️ Construction Project Management
-
-**Corporate Construction PM Portfolio**
-
-Demonstrates:
-
-`$20.6M Budget` • `75,000 SF` • `CPM` • `EVM` • `Cost Forecasting` • `Procurement` • `RFIs` • `Submittals` • `Changes` • `Risk` • `Safety` • `QA/QC` • `Closeout`
-
-### 📊 Project Controls
-
-Demonstrates:
-
-`Gantt Scheduling` • `Budget Control` • `RAID` • `KPIs` • `Executive Dashboards` • `Forecasting` • `Variance Analysis`
-
-### 💻 Technical Project Management
-
-Demonstrates:
-
-`Cloud` • `IT Operations` • `Technical Coordination` • `Implementation` • `Data-Driven Decision Making`
+All scenario metrics, budgets, users, data volumes, and financial results are clearly presented as portfolio assumptions rather than employer or client production results.
 
 ---
 
-# 🎤 Interview Approach
+## 👤 Author
 
-For each portfolio project, I am prepared to explain:
+**Jamie Christian**
 
-**Situation → Objective → Planning → Execution → Problem → Analysis → Decision → Action → Result → Lesson Learned**
-
-I focus on explaining **why a management decision was made**, not simply describing the artifact.
-
----
-
-# 📚 Continuous Development
-
-My continued development combines:
-
-* 📖 Project management principles
-* 🛠️ Hands-on project simulations
-* 📊 Data analysis
-* 💻 Technical skills
-* ☁️ Cloud technologies
-* 🏗️ Construction PM workflows
-* 🤝 Stakeholder communication
-* 📈 Business analysis
-
-The goal is to develop the combination of **business judgment, technical understanding, analytical thinking, and execution discipline** required to manage complex projects.
-
----
-
-# ⚠️ Portfolio Disclosure
-
-Projects identified as simulations in this repository are **professional portfolio simulations created for hands-on learning and interview demonstration**.
-
-Simulated project organizations, budgets, schedules, stakeholders, vendors, contractors, risks, issues, and performance data are fictional unless specifically stated otherwise.
-
-These simulations should not be interpreted as paid employment or production projects.
-
-The purpose is to demonstrate my ability to apply professional project-management methods, tools, controls, and decision-making frameworks.
-
----
-
-# 👤 About Me
-
-## Jamie Christian II
-
-🎓 **B.S. Entrepreneurial Management**
-Virginia Union University
-
-**Project Management • PMO • Implementation • Construction Project Controls • IT & Technical Projects • Business Operations**
-
-My background combines business, technology, analytics, and hands-on portfolio development to support my transition into professional project-management roles.
-
----
-
-# 🔗 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jamie%20Christian%20II-0A66C2?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/jamiechristian2/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-JamieChristian22-181717?logo=github\&logoColor=white)](https://github.com/JamieChristian22)
-
----
-
-# 📂 Featured Project
-
-## 🏗️ Corporate Construction PM Portfolio
-
-**75,000 SF • $20.6M • Ground-Up Corporate Operations Center**
-
-➡️ `Corporate_Construction_PM_Portfolio_Project/`
-
-Includes:
-
-📘 Project Management Plan
-📈 Executive Status Report
-🏁 Closeout & Turnover Plan
-📊 Integrated Project Controls
-🧠 PM Decision & Recovery Playbook
-📅 CPM / Gantt Scheduling
-💰 Cost Forecasting
-📉 Earned Value Analysis
-📦 Procurement
-❓ RFIs
-📑 Submittals
-🔄 Change Management
-⚠️ Risk Management
-🦺 Safety
-✅ QA/QC
-🤝 Stakeholder Management
-
----
-
-# ⭐ Thank You for Reviewing My Portfolio
-
-If you're a **recruiter, hiring manager, project leader, or PMO professional**, this repository is designed to provide direct evidence of how I approach:
-
-> **Planning • Coordination • Analysis • Risk • Communication • Execution • Recovery • Reporting • Closeout**
-
-⭐ **Explore the projects and supporting artifacts throughout the repository.**
+GitHub: `JamieChristian22`
