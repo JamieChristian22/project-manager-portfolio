@@ -867,3 +867,7 @@ All scenario metrics, budgets, users, data volumes, and financial results are cl
 **Jamie Christian**
 
 GitHub: `JamieChristian22`
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
